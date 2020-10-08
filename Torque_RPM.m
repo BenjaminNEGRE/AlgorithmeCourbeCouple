@@ -45,7 +45,6 @@ ylabel('Couple moteur (Nm)')
 grid on
 hold on
 plot(RPMOptimumLap,CoupleOptimumLap,'linewidth',2)
-% legend('Optimus V2')
 legend('Optimus V2','Optimus V1','Location','southwest')
 axis([5000 14000 20 65])
 hold off
